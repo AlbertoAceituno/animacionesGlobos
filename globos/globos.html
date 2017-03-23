@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>New HMTL document by NewJect</title>
+
+<style>
+
+    #lienzo{
+        margin: 50px auto;
+        width: 900px;
+        height: 600px;
+        background-image: url(fondo.jpg);
+        position: relative;
+        overflow: hidden;
+    }
+/**********************globo 1****************************/
+    #globo1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 30px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+/**********************globo 2****************************/
+    #globo2{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 160px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+/**********************globo 3****************************/
+    #globo3{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 300px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+/**********************globo 4****************************/
+    #globo4{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 510px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+/**********************globo 5****************************/
+    #globo5{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 650px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+/**********************globo 6****************************/
+    #globo6{
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        border-radius: 100px 100px 1em 99px;
+        position: absolute;
+        left: 790px;
+        bottom: -100px;
+        
+        transform: rotate(45deg);
+    }
+    
+    h3{
+        font-size: 20px;
+        font-family: sans-serif;
+        color: blue;
+        border: 5px red solid;
+        text-align: center;
+    }
+
+    button{
+        padding: 10px;
+        margin: 5px;
+        background-color: lightgreen;
+        border: 5px green solid;
+        font-weight: bold;
+    }
+    
+    button:hover{
+        background-color: lightblue;
+        border: 5px blue dotted;
+    }
+    
+    .parrafo{
+        text-align: center;
+        margin: 45px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 35px;
+        font-weight: bold;
+        color: white;
+    }
+    .parrafo2{
+        text-align: center;
+        margin: 45px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 35px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .parrafo4{
+        text-align: center;
+        margin: 45px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 35px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .parrafo6{
+        text-align: center;
+        margin: 45px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 35px;
+        font-weight: bold;
+        color: black;
+    }
+    
+
+
+</style>
+
+
+</head>
+<body>
+
+<div>
+<h3>Ejercicio de globos</h3>
+</div>
+    
+    <button id="boton">Clickame</button>
+
+<div id="lienzo">
+    <div id="globo1">
+        <p class="parrafo">¡¡BOOM!!</p>
+    </div>
+    <div id="globo2">
+        <p class="parrafo2">¡¡BOOM!!</p>
+    </div>
+    <div id="globo3">
+        <p class="parrafo">¡¡BOOM!!</p>
+    </div>
+    <div id="globo4">
+        <p class="parrafo4">¡¡BOOM!!</p>
+    </div>
+    <div id="globo5">
+        <p class="parrafo">¡¡BOOM!!</p>
+    </div>
+    <div id="globo6">
+        <p class="parrafo6">¡¡BOOM!!</p>
+    </div>
+</div>
+
+<script
+ src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<script src="globos.js"></script>
+
+</body>
+</html>
